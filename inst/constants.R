@@ -1,0 +1,1 @@
+WORKPATH_TOKEN <- Sys.getenv("WORKPATH_TOKEN")
