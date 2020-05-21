@@ -3,7 +3,7 @@ Type: Package
 Title: R client for for Workpath platform API
 Version: 0.1.0
 Author: Eugen Koepplin
-Maintainer: The package maintainer <ekoepplin@gmx.net>
+Maintainer: The package maintainer ekoepplin@gmx.net
 Description: R client for for Workpath platform API.
 License: MIT + file LICENSE
 Encoding: UTF-8
@@ -13,8 +13,8 @@ Depends:
     R (>= 3.4)
 Imports:
     httr,
-    magrittr, 
-    plyr, 
+    magrittr,
+    plyr,
     purrr,
     jsonlite
 Suggests:
