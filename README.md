@@ -5,31 +5,34 @@ R client to Workpath platform API
 
 ## Description
 
-Provides R wrapper methods to query Workpath API.
+This package allows you to interact with the [Workpath](https://www.workpath.com/) [API](https://developer.workpath.com/).
 
-## What’s Inside?
+
+## What is Inside?
 
 The following functions are implemented:
 
-  - `get_data`:
+  - `get_workpath_data`: Query Workpath API
+  - `utils`: Configuration utility functions
 
-## Installation
+### Stable Version
 
-``` r
-install.package("Rworkpath")
-# OR
-devtools::install_github("dataatelier/Rworkpath")
-```
-
-## Usage
-
-``` r
+```{r, eval=FALSE}
+# install package from CRAN
+install.packages("Rworkpath")
+# load package
 library(Rworkpath)
 ```
 
-### Basics
+### Current Development Version
 
-``` r
-token <- get_data(profile = "workpath_token")
-
+```{r, eval=FALSE}
+# install devtools package if it's not already
+if (!requireNamespace("devtools", quietly = TRUE)) {
+install.packages("devtools")
+}
+# install package from GitHub
+devtools::install_github("dataatelier/Rworkpath")
+# load package
+library(Rworkpath)
 ```
