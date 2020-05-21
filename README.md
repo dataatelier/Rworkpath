@@ -1,6 +1,6 @@
 Rworkpath
 ==============
-[![CircleCI](https://circleci.com/gh/dataatelier/Rworkpath.svg?style=svg](https://circleci.com/gh/dataatelier/Rworkpath)
+[![CircleCI](https://circleci.com/gh/dataatelier/Rworkpath.svg?style=svg)](https://circleci.com/gh/dataatelier/Rworkpath)
 
 R client to Workpath platform API
 
