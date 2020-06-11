@@ -21,6 +21,4 @@ Suggests:
     knitr,
     devtools,
     roxygen2,
-    rmarkdown,
-    testthat,
-    covr
+    rmarkdown
