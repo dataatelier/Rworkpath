@@ -1,10 +1,10 @@
 Package: Rworkpath
 Type: Package
-Title: R client for for Workpath platform API
+Title: R Client for Workpath Platform API
 Version: 0.1.0
 Author: Eugen Koepplin
 Maintainer: The package maintainer <ekoepplin@gmx.net>
-Description: R client for for Workpath platform API.
+Description: R Client for Workpath Platform API.
 License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
@@ -21,4 +21,5 @@ Suggests:
     knitr,
     devtools,
     roxygen2,
-    rmarkdown
+    rmarkdown,
+    testthat
