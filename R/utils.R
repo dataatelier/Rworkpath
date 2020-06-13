@@ -28,3 +28,18 @@ workpath_api_token <- function(your_company_subdomain, token, default_path_to_to
   }
   return(auth_header)
 }
+
+#' Return a dataframe object
+#' @param resp jsonlite::fromJSON object
+#' @return dataframe#'
+#' #' @examples
+#' \dontrun{raw_to_dataframe(listOfDataFrames)}
+#' @importFrom purrr map
+#' @importFrom plyr rbind.fill
+#' @importFrom magrittr %>%
+#' @importFrom utils globalVariables
+#' @examples
+raw_to_dataframe <- function(resp) {
+  source_df <- resp %>% purrr::map(~data.frame(.)) %>% do.call(plyr::rbind.fill,.)
+  return(source_df)
+}
