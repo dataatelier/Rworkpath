@@ -3,8 +3,8 @@ Type: Package
 Title: R Client for Workpath Platform API
 Version: 0.1.0
 Author: Eugen Koepplin
-Maintainer: The package maintainer <ekoepplin@gmx.net>
-Description: R Client for Workpath Platform API.
+Maintainer: Eugen Koepplin <ekoepplin@gmx.net>
+Description: R Client for Workpath Platform API https://developer.workpath.com/
 License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
